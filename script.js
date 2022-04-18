@@ -12,7 +12,7 @@ $(document).ready(function() {
   getAllTasks();
 
   function getAllAvailableBoards(callback, callbackArgs) {
-    var requestUrl = trelloApiRoot + '/boards?fields=name,id&key=f060124fd1dbd44f2779295ba7cf45f3&token=c097a11dad4a90e7365ad9722a9cd887777f6a40082ad259eec9ff42ff982c2f';
+    var requestUrl = trelloApiRoot + '/boards?key=f060124fd1dbd44f2779295ba7cf45f3&token=c097a11dad4a90e7365ad9722a9cd887777f6a40082ad259eec9ff42ff982c2f';
 
     $.ajax({
       url: requestUrl,
